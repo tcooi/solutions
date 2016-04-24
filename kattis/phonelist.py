@@ -11,7 +11,7 @@ def main():
             number = stdin.readline().rstrip("\n")
             numbers.append(number)
 
-        # sorted list means that list is not consistent if the right item of two neighbors starts with the left item
+        #sort list, list is not consistent if the right item of two neighbors starts with the left item
         numbers.sort()
 
         failed = False
