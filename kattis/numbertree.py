@@ -17,7 +17,6 @@ def find_node(nodes, path):
     binary = ""
 
     # use path to create a binary representation of the correct position
-    path is a binary
     for i in range(0, len("".join(path))):
         if path[i] == "L":
             binary += "0"
