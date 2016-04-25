@@ -7,10 +7,8 @@ def main():
     for move in moves:
         if move == "A":
             position = switch(position, 1, 2, 1)
-
         if move == "B":
             position = switch(position, 2, 3, 1)
-
         if move == "C":
             position = switch(position, 1, 3, 2)
 
