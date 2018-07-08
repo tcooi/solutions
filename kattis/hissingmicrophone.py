@@ -1,5 +1,15 @@
 from sys import stdin
 
-input = stdin.readline().rstrip('\n')
+input = list(stdin.readline().rstrip('\n'))
 
-print(input)
+hiss = False
+
+for x in range(0, len(input)-1):
+    if input[x] == "s" and input[x+1] == "s":
+        hiss = True
+        break
+
+if hiss:
+    print("hiss")
+else:
+    print("no hiss")
